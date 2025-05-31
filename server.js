@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+// https://stackoverflow.com/questions/48433783/referenceerror-fetch-is-not-defined
+if(!fetch) fetch = require('node-fetch');
+
 const passport = require('passport');
 const GeniusStrategy = require('passport-genius');
 

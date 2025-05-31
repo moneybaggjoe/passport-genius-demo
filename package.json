@@ -12,7 +12,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "passport": "^0.7.0",
-    "passport-genius": "^0.2.0"
+    "passport-genius": "^0.2.0",
+    "node-fetch": "^2.7.0"
   },
   "engines": {
     "node": "8.x"
